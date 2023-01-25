@@ -1,0 +1,20 @@
+.button {
+  @apply w-full font-sans font-bold text-center text-white rounded-md;
+  max-width: 22.5rem;
+
+  &.Blue {
+    background-color: #00BFDA;
+  }
+
+  &Large {
+    height: 3.625rem;
+
+    @apply text-2xl;
+  }
+
+  &Small {
+    height: 2.75rem;
+
+    @apply text-xl;
+  }
+}
